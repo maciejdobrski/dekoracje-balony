@@ -1,0 +1,7 @@
+# OS generated files #
+######################
+
+.sass-cache
+*.map
+.idea
+
