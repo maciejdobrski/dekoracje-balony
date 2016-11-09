@@ -380,4 +380,68 @@ a, button {
   -webkit-transition: 0.4s;
   transition: 0.4s; }
 
+.header {
+  background-color: #d1d1d1;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+  .header.opacity {
+    opacity: 0.5; }
+  .header .navbar-header {
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    height: 80px; }
+    .header .navbar-header .logo {
+      font-family: "Pacifico", cursive;
+      color: #3a3c4a;
+      text-decoration: none;
+      font-size: 24px;
+      vertical-align: middle;
+      padding-left: 10px;
+      display: table-cell; }
+      .header .navbar-header .logo:hover {
+        color: black; }
+    .header .navbar-header .navbar-toggle {
+      background-color: #fff;
+      margin-bottom: 23px;
+      margin-top: 23px;
+      border-radius: 2px; }
+      .header .navbar-header .navbar-toggle .icon-bar {
+        position: relative;
+        transition: all 500ms ease-in-out;
+        background-color: #3a3c4a; }
+        .header .navbar-header .navbar-toggle .icon-bar:nth-of-type(1) {
+          top: -6px;
+          margin-top: 6px; }
+        .header .navbar-header .navbar-toggle .icon-bar:nth-of-type(2) {
+          top: -6px; }
+        .header .navbar-header .navbar-toggle .icon-bar:nth-of-type(3) {
+          top: -6px;
+          margin-bottom: -6px; }
+      .header .navbar-header .navbar-toggle[aria-expanded="true"] .icon-bar:nth-of-type(1) {
+        top: 0;
+        transform: rotate(45deg); }
+      .header .navbar-header .navbar-toggle[aria-expanded="true"] .icon-bar:nth-of-type(2) {
+        background-color: transparent; }
+      .header .navbar-header .navbar-toggle[aria-expanded="true"] .icon-bar:nth-of-type(3) {
+        top: -12px;
+        transform: rotate(-45deg); }
+  .header .navbar-collapse {
+    text-align: center;
+    box-shadow: none;
+    -webkit-box-shadow: none; }
+    .header .navbar-collapse .navbar-nav {
+      float: none !important;
+      margin: 0; }
+      .header .navbar-collapse .navbar-nav li {
+        margin-bottom: 5px; }
+        .header .navbar-collapse .navbar-nav li .scrollto {
+          color: #3a3c4a;
+          text-decoration: none; }
+          .header .navbar-collapse .navbar-nav li .scrollto:hover {
+            background-color: #fff;
+            color: black; }
+        .header .navbar-collapse .navbar-nav li.active .scrollto {
+          color: black;
+          background-color: #fff; }
+
 /*# sourceMappingURL=style.css.map */
