@@ -24,6 +24,22 @@ $(function () {
         });
     });
 
+    var colorHeader = 80;
+    if (scroll >= colorHeader) {
+        $('.transparent').addClass('color');
+    } else {
+        $('.transparent').removeClass('color');
+    }
+
+    $(window).scroll(function () {
+        var scroll = getCurrentScroll();
+        if (scroll >= colorHeader) {
+            $('.header').addClass('opacity');
+        } else {
+            $('.header').removeClass('opacity');
+        }
+    });
+
 
     function getCurrentScroll() {
         return window.pageYOffset || document.documentElement.scrollTop;
