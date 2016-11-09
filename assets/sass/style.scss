@@ -50,7 +50,7 @@ a, button {
   border-bottom: 1px solid rgba(0,0,0,0.3);
 
   &.opacity{
-    opacity: 0.5;
+    opacity: 1;
   }
 
   .navbar-header{
@@ -139,6 +139,34 @@ a, button {
           .scrollto{
             color: darken($primary-color, 50%);
             background-color: $secundary-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* ===== Media queries ===== */
+
+@media (min-width: 768px) {
+  .header{
+    &.opacity{
+      opacity: 0.5;
+    }
+
+    .navbar-header{
+      width: auto;
+    }
+
+    .navbar-collapse{
+      .navbar-nav{
+        float: right !important;
+
+        li{
+          margin-bottom: 0;
+
+          .scrollto{
+            padding: 30px 10px;
           }
         }
       }
