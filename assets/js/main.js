@@ -11,7 +11,7 @@ $(function () {
         var hash = this.hash;
 
         $('html, body').animate({
-            scrollTop: $(hash).offset().top
+            scrollTop: $(hash).offset().top -80
         }, 2000, function () {
 
             // Dodaje (#) do URL kiedy skończy scrollować (default click behavior)
