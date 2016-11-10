@@ -494,6 +494,79 @@ a, button {
             bottom: -4px;
             left: -4px; }
 
+.offer {
+  background-color: #f1f1f1;
+  padding: 60px 0; }
+  .offer .offer-box {
+    text-align: center;
+    padding: 40px 50px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    overflow: hidden;
+    margin-top: 25px;
+    position: relative;
+    height: 250px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out; }
+    .offer .offer-box.box-1 {
+      background-color: #fcb41e; }
+    .offer .offer-box.box-2 {
+      background-color: #53b1c6; }
+    .offer .offer-box.box-3 {
+      background-color: #ff751a; }
+    .offer .offer-box.box-4 {
+      background-color: #5d5167; }
+    .offer .offer-box .offer-image {
+      position: absolute;
+      left: 50%;
+      top: 15%;
+      margin-left: -25%;
+      -webkit-transition: top .3s ease-in-out;
+      -moz-transition: top .3s ease-in-out;
+      -ms-transition: top .3s ease-in-out;
+      -o-transition: top .3s ease-in-out;
+      transition: top .3s ease-in-out; }
+    .offer .offer-box .offer-slogan {
+      position: absolute;
+      left: 50%;
+      margin-left: -25%;
+      width: 50%;
+      top: 65%;
+      -webkit-transition: top .3s ease-in-out;
+      -moz-transition: top .3s ease-in-out;
+      -ms-transition: top .3s ease-in-out;
+      -o-transition: top .3s ease-in-out;
+      transition: top .3s ease-in-out; }
+      .offer .offer-box .offer-slogan h3 {
+        color: #fff; }
+    .offer .offer-box .offer-hide-text {
+      overflow: hidden;
+      -webkit-transition: top .3s ease-in-out;
+      -moz-transition: top .3s ease-in-out;
+      -ms-transition: top .3s ease-in-out;
+      -o-transition: top .3s ease-in-out;
+      transition: top .3s ease-in-out;
+      position: absolute;
+      left: 50%;
+      width: 50%;
+      height: 50%;
+      margin-left: -25%;
+      top: 100%; }
+    .offer .offer-box:hover {
+      background-color: #fff; }
+      .offer .offer-box:hover .offer-image {
+        top: -60%; }
+      .offer .offer-box:hover .offer-slogan {
+        top: 15%; }
+        .offer .offer-box:hover .offer-slogan h3 {
+          color: #3a3c4a; }
+      .offer .offer-box:hover .offer-hide-text {
+        top: 50%; }
+
 /* ===== Media queries ===== */
 @media (min-width: 768px) {
   .header.opacity {
@@ -505,6 +578,9 @@ a, button {
     .header .navbar-collapse .navbar-nav li {
       margin-bottom: 0; }
       .header .navbar-collapse .navbar-nav li .scrollto {
-        padding: 30px 10px; } }
+        padding: 30px 10px; }
+
+  .offer .offer-box {
+    margin-top: 50px; } }
 
 /*# sourceMappingURL=style.css.map */

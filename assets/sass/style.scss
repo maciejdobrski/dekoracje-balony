@@ -211,7 +211,102 @@ a, button {
       }
     }
   }
+}
 
+.offer{
+  background-color: #f1f1f1;
+  padding: 60px 0;
+
+  .offer-box{
+    text-align: center;
+    padding: 40px 50px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    overflow: hidden;
+    margin-top: 25px;
+    position: relative;
+    height: 250px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+
+    &.box-1{
+      background-color: #fcb41e;
+    }
+    &.box-2{
+      background-color: #53b1c6;
+    }
+    &.box-3{
+      background-color: #ff751a;
+    }
+    &.box-4{
+      background-color: #5d5167;
+    }
+
+    .offer-image{
+      position: absolute;
+      left: 50%;
+      top: 15%;
+      margin-left: -25%;
+      -webkit-transition: top .3s ease-in-out;
+      -moz-transition: top .3s ease-in-out;
+      -ms-transition: top .3s ease-in-out;
+      -o-transition: top .3s ease-in-out;
+      transition: top .3s ease-in-out;
+    }
+
+    .offer-slogan{
+      position: absolute;
+      left: 50%;
+      margin-left: -25%;
+      width: 50%;
+      top: 65%;
+      -webkit-transition: top .3s ease-in-out;
+      -moz-transition: top .3s ease-in-out;
+      -ms-transition: top .3s ease-in-out;
+      -o-transition: top .3s ease-in-out;
+      transition: top .3s ease-in-out;
+
+      h3{
+        color: $secundary-color;
+      }
+    }
+
+    .offer-hide-text{
+      overflow: hidden;
+      -webkit-transition: top .3s ease-in-out;
+      -moz-transition: top .3s ease-in-out;
+      -ms-transition: top .3s ease-in-out;
+      -o-transition: top .3s ease-in-out;
+      transition: top .3s ease-in-out;
+      position: absolute;
+      left: 50%;
+      width: 50%;
+      height: 50%;
+      margin-left: -25%;
+      top: 100%;
+    }
+
+    &:hover{
+      background-color: $secundary-color;
+      .offer-image{
+        top: -60%;
+      }
+      .offer-slogan{
+        top: 15%;
+
+        h3{
+          color: $primary-color;
+        }
+      }
+      .offer-hide-text{
+        top: 50%;
+      }
+    }
+  }
 }
 
 /* ===== Media queries ===== */
@@ -238,6 +333,12 @@ a, button {
           }
         }
       }
+    }
+  }
+
+  .offer{
+    .offer-box{
+      margin-top: 50px;
     }
   }
 }
