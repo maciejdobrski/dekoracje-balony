@@ -46,7 +46,7 @@ a, button {
   transition: 0.4s;
 }
 
-.btn-about, .btn-contact{
+.btn-about, .btn-contact, .btn-slider{
   background-color: transparent;
   color: $secundary-color;
   border-radius: 2px;
@@ -112,6 +112,64 @@ a, button {
 
     p{
       color: $primary-color;
+    }
+  }
+}
+
+.carousel{
+  height: 100%;
+
+  .carousel-control{
+    width: 5%;
+  }
+}
+.carousel-inner{
+  height: 100%;
+
+  .item{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+
+    &.item-1{
+      background-image: url(../image/bg-4.jpg);
+    }
+    &.item-2{
+      background-image: url(../image/bg-2.jpg);
+
+      p{
+        color: $primary-color;
+      }
+    }
+    &.item-3{
+      background-image: url(../image/bg-3.jpg);
+    }
+    &.item-4{
+      background-image: url(../image/bg-1.jpg);
+
+      p{
+        color: $primary-color;
+      }
+    }
+
+    .carousel-caption{
+      text-align: left;
+      text-shadow: none;
+      top: 50%;
+      margin-top: -5%;
+      left: 11%;
+
+      h2{
+        font-size: 1.75em;
+        text-transform: uppercase;
+        span{
+          color: $primary-color-dark;
+        }
+      }
     }
   }
 }
@@ -218,7 +276,6 @@ a, button {
 }
 
 .about{
-  background-image: url(../image/bg-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: $page-height;

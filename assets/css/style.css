@@ -380,7 +380,7 @@ a, button {
   -webkit-transition: 0.4s;
   transition: 0.4s; }
 
-.btn-about, .btn-contact {
+.btn-about, .btn-contact, .btn-slider {
   background-color: transparent;
   color: #fff;
   border-radius: 2px;
@@ -395,7 +395,7 @@ a, button {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   position: relative; }
-  .btn-about::before, .btn-contact::before {
+  .btn-about::before, .btn-contact::before, .btn-slider::before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -408,9 +408,9 @@ a, button {
     transition-duration: 0.3s;
     -webkit-transition-property: top, right, bottom, left;
     transition-property: top, right, bottom, left; }
-  .btn-about:hover, .btn-contact:hover {
+  .btn-about:hover, .btn-contact:hover, .btn-slider:hover {
     color: #fff; }
-    .btn-about:hover::before, .btn-contact:hover::before {
+    .btn-about:hover::before, .btn-contact:hover::before, .btn-slider:hover::before {
       top: -4px;
       right: -4px;
       bottom: -4px;
@@ -429,6 +429,45 @@ a, button {
     color: #3a3c4a; }
   .section-header.section-header-primary p {
     color: #3a3c4a; }
+
+.carousel {
+  height: 100%; }
+  .carousel .carousel-control {
+    width: 5%; }
+
+.carousel-inner {
+  height: 100%; }
+  .carousel-inner .item {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat; }
+    .carousel-inner .item.item-1 {
+      background-image: url(../image/bg-4.jpg); }
+    .carousel-inner .item.item-2 {
+      background-image: url(../image/bg-2.jpg); }
+      .carousel-inner .item.item-2 p {
+        color: #3a3c4a; }
+    .carousel-inner .item.item-3 {
+      background-image: url(../image/bg-3.jpg); }
+    .carousel-inner .item.item-4 {
+      background-image: url(../image/bg-1.jpg); }
+      .carousel-inner .item.item-4 p {
+        color: #3a3c4a; }
+    .carousel-inner .item .carousel-caption {
+      text-align: left;
+      text-shadow: none;
+      top: 50%;
+      margin-top: -5%;
+      left: 11%; }
+      .carousel-inner .item .carousel-caption h2 {
+        font-size: 1.75em;
+        text-transform: uppercase; }
+        .carousel-inner .item .carousel-caption h2 span {
+          color: black; }
 
 .header {
   background-color: #f1f1f1;
@@ -495,7 +534,6 @@ a, button {
           background-color: #fff; }
 
 .about {
-  background-image: url(../image/bg-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%; }
