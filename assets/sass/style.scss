@@ -48,7 +48,7 @@ a, button {
 
 .btn-about, .btn-contact{
   background-color: transparent;
-  color: #fff;
+  color: $secundary-color;
   border-radius: 2px;
   border: none;
   text-transform: uppercase;
@@ -70,7 +70,7 @@ a, button {
     bottom: 0;
     left: 0;
     right: 0;
-    border: 3px solid #fff;
+    border: 3px solid $secundary-color;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     -webkit-transition-property: top, right, bottom, left;
@@ -78,6 +78,8 @@ a, button {
   }
 
   &:hover{
+    color: $secundary-color;
+
     &::before{
       top: -4px;
       right: -4px;
@@ -89,6 +91,7 @@ a, button {
 
 .section-header{
   color: $secundary-color;
+  margin-bottom: 40px;
 
   h1{
     color: $secundary-color;
@@ -96,6 +99,10 @@ a, button {
 
   h2{
     color: $secundary-color;
+  }
+
+  a{
+    margin-top: 20px;
   }
 
   &.section-header-primary{
@@ -114,7 +121,7 @@ a, button {
   border-bottom: 1px solid rgba(0,0,0,0.3);
 
   &.opacity{
-    opacity: 1;
+    background-color: rgba(241, 241, 241, 0.5);
   }
 
   .navbar-header{
@@ -426,7 +433,7 @@ a, button {
 @media (min-width: 768px) {
   .header{
     &.opacity{
-      opacity: 0.5;
+      background-color: rgba(241, 241, 241, 0.5);
     }
 
     .navbar-header{
