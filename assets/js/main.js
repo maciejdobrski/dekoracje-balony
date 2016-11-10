@@ -41,6 +41,12 @@ $(function () {
     });
 
 
+    $('.carousel').carousel({
+        interval: 4500,
+        pause: "false"
+    });
+
+
     function getCurrentScroll() {
         return window.pageYOffset || document.documentElement.scrollTop;
     }
