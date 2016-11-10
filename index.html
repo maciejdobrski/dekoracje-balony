@@ -127,32 +127,36 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-6">
-                <h3>Kontakt</h3>
-                <address>
-                    <p>Balony-dekoracje</p><br>
-                    <p>ul. Deptak Bogusława 1/1</p><br>
-                    <p>Szczecin 71-001</p><br>
-                    <p>Polska</p><br>
-                    <strong>Tel. 500-000-000</strong>
-                    <strong><a href="mailto:#">kontakt@balony-dekoracje.pl</a></strong>
-                </address>
+                <div class="contact-address">
+                    <h3>Kontakt</h3>
+                    <address>
+                        <p>Balony-dekoracje</p><br>
+                        <p>ul. Deptak Bogusława 1/1</p><br>
+                        <p>Szczecin 71-001</p><br>
+                        <p>Polska</p><br>
+                        <strong class="phone">Tel. 500-000-000</strong>
+                        <strong class="mail"><a href="mailto:#">kontakt@balony-dekoracje.pl</a></strong>
+                    </address>
+                </div>
             </div>
-            <div class="col=xs-12 col-sm-6">
-                <form id="contact-form" name="contact-form" method="post" action="#">
-                    <div class="form-group">
-                        <input type="text" name="name" class="form-control" placeholder="Imię" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" name="email" class="form-control" placeholder="Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" name="subject" class="form-control" placeholder="Temat" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea name="message" class="form-control" rows="4" placeholder="Wiadomość" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-submit">Wyślij wiadomość</button>
-                </form>
+            <div class="col-xs-12 col-sm-6">
+                <div class="contact-form-wrapper">
+                    <form id="contact-form" name="contact-form" method="post" action="#">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control" placeholder="Imię" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" class="form-control" placeholder="Temat" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" class="form-control" rows="4" placeholder="Wiadomość" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-contact">Wyślij wiadomość</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
