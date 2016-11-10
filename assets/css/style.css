@@ -381,7 +381,7 @@ a, button {
   transition: 0.4s; }
 
 .header {
-  background-color: #d1d1d1;
+  background-color: #f1f1f1;
   border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
   .header.opacity {
     opacity: 1; }
@@ -445,7 +445,7 @@ a, button {
           background-color: #fff; }
 
 .about {
-  background-image: url(../image/background.jpg);
+  background-image: url(../image/bg-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%; }

@@ -16,7 +16,7 @@ $font-orbitron: 'Orbitron', sans-serif;
 
 $primary-color: #3a3c4a;
 $secundary-color: #fff;
-$grey-color: #d1d1d1;
+$grey-color: #f1f1f1;
 
 /* ===== General ===== */
 html{
@@ -147,7 +147,7 @@ a, button {
 }
 
 .about{
-  background-image: url(../image/background.jpg);
+  background-image: url(../image/bg-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: $page-height;
@@ -214,7 +214,7 @@ a, button {
 }
 
 .offer{
-  background-color: #f1f1f1;
+  background-color: $grey-color;
   padding: 60px 0;
 
   .offer-box{
