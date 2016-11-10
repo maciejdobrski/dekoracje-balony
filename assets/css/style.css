@@ -631,6 +631,16 @@ a, button {
         .contact .contact-form-wrapper .btn-contact:hover i {
           animation: bounce 1s; }
 
+.footer {
+  padding: 15px 0;
+  text-align: center;
+  background-color: #3a3c4a; }
+  .footer p {
+    color: #fff; }
+    .footer p a {
+      color: #eb5d1e;
+      text-decoration: none; }
+
 @keyframes bounce {
   0% {
     transform: translate(0); }

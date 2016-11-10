@@ -416,6 +416,21 @@ a, button {
   }
 }
 
+.footer{
+  padding: 15px 0;
+  text-align: center;
+  background-color: $primary-color;
+  
+  p{
+    color: $secundary-color;
+
+    a{
+      color: #eb5d1e;
+      text-decoration: none;
+    }
+  }
+}
+
 @keyframes bounce {
   0% {
     transform: translate(0);
