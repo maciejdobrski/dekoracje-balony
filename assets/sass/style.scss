@@ -137,35 +137,45 @@ a, button {
 
     &.item-1{
       background-image: url(../image/bg-4.jpg);
+
+      h2{
+        color: #fcb41e;
+      }
     }
     &.item-2{
-      background-image: url(../image/bg-2.jpg);
+      background-image: url(../image/bg-6.jpeg);
 
-      p{
-        color: $primary-color;
+      h2{
+        color: darken(#5d5167, 5%);
       }
     }
     &.item-3{
       background-image: url(../image/bg-3.jpg);
+
+      h2{
+        color: #ff751a;
+      }
     }
     &.item-4{
       background-image: url(../image/bg-1.jpg);
 
-      p{
-        color: $primary-color;
+      h2{
+        color: #53b1c6;
       }
+
     }
 
     .carousel-caption{
       text-align: left;
       text-shadow: none;
       top: 50%;
-      margin-top: -5%;
+      margin-top: -6%;
       left: 11%;
 
       h2{
         font-size: 1.75em;
         text-transform: uppercase;
+        font-weight: 700;
         span{
           color: $primary-color-dark;
         }
@@ -264,6 +274,10 @@ a, button {
           &:hover{
             background-color: $secundary-color;
             color: darken($primary-color, 50%);
+          }
+
+          &:focus{
+            background-color: transparent;
           }
         }
 
