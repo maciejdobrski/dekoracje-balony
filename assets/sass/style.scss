@@ -175,11 +175,14 @@ a, button {
 }
 
 .header{
-  background-color: $grey-color;
-  border-bottom: 1px solid rgba(0,0,0,0.3);
+  background-color: $secundary-color;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 
   &.opacity{
-    background-color: rgba(241, 241, 241, 0.5);
+    background-color: rgba(241, 241, 241, 0.65);
   }
 
   .navbar-header{
@@ -267,7 +270,7 @@ a, button {
         &.active{
           .scrollto{
             color: darken($primary-color, 50%);
-            background-color: $secundary-color;
+            background-color: #53b1c6;
           }
         }
       }
