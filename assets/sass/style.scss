@@ -473,6 +473,21 @@ a, button {
   }
 }
 
+.google{
+  position: relative;
+  height: 300px;
+
+  #google-map{
+    position: absolute;
+    height: $page-height;
+    width: $page-width;
+    top: 0;
+    z-index: -1;
+    left: 0;
+    right: 0;
+  }
+}
+
 .footer{
   padding: 15px 0;
   text-align: center;

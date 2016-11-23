@@ -669,6 +669,18 @@ a, button {
         .contact .contact-form-wrapper .btn-contact:hover i {
           animation: bounce 1s; }
 
+.google {
+  position: relative;
+  height: 300px; }
+  .google #google-map {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    left: 0;
+    right: 0; }
+
 .footer {
   padding: 15px 0;
   text-align: center;
