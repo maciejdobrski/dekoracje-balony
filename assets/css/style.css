@@ -640,14 +640,18 @@ a, button {
     color: #fff;
     margin-bottom: 30px;
     text-align: center; }
-    .contact .contact-address br {
-      display: none; }
     .contact .contact-address h3 {
-      color: #fff; }
+      color: #fff;
+      font-family: "Pacifico", cursive;
+      margin-bottom: 20px; }
+    .contact .contact-address address > div {
+      margin-bottom: 15px; }
+    .contact .contact-address address > div > p {
+      margin-bottom: 0; }
     .contact .contact-address strong {
       display: block; }
       .contact .contact-address strong.phone {
-        margin-bottom: 10px; }
+        margin-bottom: 5px; }
       .contact .contact-address strong.mail a {
         color: #fff;
         text-decoration: none; }
