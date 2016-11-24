@@ -275,13 +275,9 @@ a, button {
           color: $primary-color;
           text-decoration: none;
 
-          &:hover{
+          &:hover, &:focus{
             background-color: $orange;
             color: $secundary-color;
-          }
-
-          &:focus{
-            background-color: transparent;
           }
         }
 

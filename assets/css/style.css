@@ -542,11 +542,9 @@ a, button {
         .header .navbar-collapse .navbar-nav li .scrollto {
           color: #3a3c4a;
           text-decoration: none; }
-          .header .navbar-collapse .navbar-nav li .scrollto:hover {
+          .header .navbar-collapse .navbar-nav li .scrollto:hover, .header .navbar-collapse .navbar-nav li .scrollto:focus {
             background-color: #FF3D00;
             color: #fff; }
-          .header .navbar-collapse .navbar-nav li .scrollto:focus {
-            background-color: transparent; }
         .header .navbar-collapse .navbar-nav li.active .scrollto {
           color: #fff;
           background-color: #FF3D00; }
