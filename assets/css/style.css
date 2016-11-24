@@ -482,7 +482,10 @@ a, button {
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
   -webkit-transition: 0.4s;
-  transition: 0.4s; }
+  transition: 0.4s;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4); }
   .header.opacity {
     background-color: rgba(241, 241, 241, 0.9); }
   .header .navbar-header {
