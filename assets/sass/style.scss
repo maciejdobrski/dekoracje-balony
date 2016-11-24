@@ -189,7 +189,7 @@ a, button {
   transition: 0.4s;
 
   &.opacity{
-    background-color: rgba(241, 241, 241, 0.7);
+    background-color: rgba(241, 241, 241, 0.9);
   }
 
   .navbar-header{
@@ -441,7 +441,7 @@ a, button {
     padding: 20px 15px;
 
     .form-control{
-      border-radius: 2px;
+      border-radius: 0;
 
       &::-webkit-input-placeholder {
         color: $primary-color-dark;

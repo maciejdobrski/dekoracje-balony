@@ -484,7 +484,7 @@ a, button {
   -webkit-transition: 0.4s;
   transition: 0.4s; }
   .header.opacity {
-    background-color: rgba(241, 241, 241, 0.7); }
+    background-color: rgba(241, 241, 241, 0.9); }
   .header .navbar-header {
     display: table;
     width: 100%;
@@ -654,7 +654,7 @@ a, button {
   .contact .contact-form-wrapper {
     padding: 20px 15px; }
     .contact .contact-form-wrapper .form-control {
-      border-radius: 2px; }
+      border-radius: 0; }
       .contact .contact-form-wrapper .form-control::-webkit-input-placeholder {
         color: black; }
       .contact .contact-form-wrapper .form-control:-moz-placeholder {
