@@ -166,11 +166,15 @@ a, button {
     }
 
     .carousel-caption{
-      text-align: left;
+      text-align: center;
       text-shadow: none;
       top: 50%;
-      margin-top: -6%;
-      left: 11%;
+      margin-top: -100px;
+      left: 0;
+      bottom: inherit;
+      background-color: rgba(255,255,255,0.6);
+      padding-right: 30px;
+      padding-left: 30px;
 
       h2{
         font-size: 1.75em;
@@ -535,6 +539,32 @@ a, button {
 /* ===== Media queries ===== */
 
 @media (min-width: 768px) {
+  .carousel-inner{
+    height: 100%;
+
+    .item{
+      .carousel-caption{
+        text-shadow: none;
+        top: 50%;
+        margin-top: -5%;
+        left: 0;
+        bottom: inherit;
+        background-color: rgba(255,255,255,0.7);
+        padding-left: 100px;
+        padding-right: 100px;
+
+        h2{
+          font-size: 1.75em;
+          text-transform: uppercase;
+          font-weight: 700;
+          span{
+            color: $primary-color-dark;
+          }
+        }
+      }
+    }
+  }
+
   .header{
     &.opacity{
       background-color: rgba(241, 241, 241, 0.5);
