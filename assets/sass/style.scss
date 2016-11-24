@@ -18,6 +18,7 @@ $primary-color: #3a3c4a;
 $primary-color-dark: darken($primary-color, 50%);
 $secundary-color: #fff;
 $grey-color: #f1f1f1;
+$orange: #FF3D00;
 
 /* ===== General ===== */
 html{
@@ -163,7 +164,7 @@ a, button {
         text-transform: uppercase;
         font-weight: 700;
         padding: 10px 15px;
-        background-color: #FF3D00;
+        background-color: $orange;
         color: $secundary-color;
         margin-bottom: 0;
         max-width: 450px;
@@ -173,7 +174,7 @@ a, button {
       }
 
       p{
-        background-color: $primary-color;
+        background-color: rgba(58, 60, 74, 0.8);
         padding: 10px 15px;
       }
     }
@@ -199,7 +200,7 @@ a, button {
 
     .logo{
       font-family: $font-pacifico;
-      color: #FF3D00;
+      color: $orange;
       text-decoration: none;
       font-size: 24px;
       vertical-align: middle;
@@ -207,7 +208,7 @@ a, button {
       display: table-cell;
 
       &:hover{
-        color: darken(#FF3D00, 10%);
+        color: darken($orange, 10%);
       }
     }
 
@@ -268,7 +269,7 @@ a, button {
           text-decoration: none;
 
           &:hover{
-            background-color: #FF3D00;
+            background-color: $orange;
             color: $secundary-color;
           }
 
@@ -280,7 +281,7 @@ a, button {
         &.active{
           .scrollto{
             color: $secundary-color;
-            background-color: #FF3D00;
+            background-color: $orange;
           }
         }
       }

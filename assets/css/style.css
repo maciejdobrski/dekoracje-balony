@@ -474,7 +474,7 @@ a, button {
         .carousel-inner .item .carousel-caption h2 span {
           color: black; }
       .carousel-inner .item .carousel-caption p {
-        background-color: #3a3c4a;
+        background-color: rgba(58, 60, 74, 0.8);
         padding: 10px 15px; }
 
 .header {
