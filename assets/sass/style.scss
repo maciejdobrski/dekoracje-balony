@@ -136,33 +136,16 @@ a, button {
     background-repeat: no-repeat;
 
     &.item-1{
-      background-image: url(../image/bg-4.jpg);
-
-      h2{
-        color: #fcb41e;
-      }
+      background-image: url(../image/bg-1.jpg);
     }
     &.item-2{
       background-image: url(../image/bg-7.jpg);
-
-      h2{
-        color: darken(#5d5167, 5%);
-      }
     }
     &.item-3{
       background-image: url(../image/bg-3.jpg);
-
-      h2{
-        color: #ff751a;
-      }
     }
     &.item-4{
-      background-image: url(../image/bg-1.jpg);
-
-      h2{
-        color: #53b1c6;
-      }
-
+      background-image: url(../image/bg-4.jpg);
     }
 
     .carousel-caption{
@@ -172,7 +155,6 @@ a, button {
       margin-top: -100px;
       left: 0;
       bottom: inherit;
-      background-color: rgba(255,255,255,0.6);
       padding-right: 30px;
       padding-left: 30px;
 
@@ -180,9 +162,19 @@ a, button {
         font-size: 1.75em;
         text-transform: uppercase;
         font-weight: 700;
+        padding: 10px 15px;
+        background-color: #FF3D00;
+        color: $secundary-color;
+        margin-bottom: 0;
+        max-width: 450px;
         span{
           color: $primary-color-dark;
         }
+      }
+
+      p{
+        background-color: $primary-color;
+        padding: 10px 15px;
       }
     }
   }
@@ -207,7 +199,7 @@ a, button {
 
     .logo{
       font-family: $font-pacifico;
-      color: $primary-color;
+      color: #FF3D00;
       text-decoration: none;
       font-size: 24px;
       vertical-align: middle;
@@ -215,7 +207,7 @@ a, button {
       display: table-cell;
 
       &:hover{
-        color: darken($primary-color, 50%);
+        color: darken(#FF3D00, 10%);
       }
     }
 
@@ -276,8 +268,8 @@ a, button {
           text-decoration: none;
 
           &:hover{
-            background-color: $secundary-color;
-            color: darken($primary-color, 50%);
+            background-color: #FF3D00;
+            color: $secundary-color;
           }
 
           &:focus{
@@ -287,8 +279,8 @@ a, button {
 
         &.active{
           .scrollto{
-            color: darken($primary-color, 50%);
-            background-color: #53b1c6;
+            color: $secundary-color;
+            background-color: #FF3D00;
           }
         }
       }
@@ -549,7 +541,6 @@ a, button {
         margin-top: -5%;
         left: 0;
         bottom: inherit;
-        background-color: rgba(255,255,255,0.7);
         padding-left: 100px;
         padding-right: 100px;
 
@@ -560,6 +551,11 @@ a, button {
           span{
             color: $primary-color-dark;
           }
+        }
+
+        p{
+          margin-left: 150px;
+          max-width: 450px;
         }
       }
     }
