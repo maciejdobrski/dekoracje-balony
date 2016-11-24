@@ -461,9 +461,7 @@ a, button {
       top: 50%;
       margin-top: -100px;
       left: 0;
-      bottom: inherit;
-      padding-right: 30px;
-      padding-left: 30px; }
+      bottom: inherit; }
       .carousel-inner .item .carousel-caption h2 {
         font-size: 1.75em;
         text-transform: uppercase;
@@ -486,7 +484,7 @@ a, button {
   -webkit-transition: 0.4s;
   transition: 0.4s; }
   .header.opacity {
-    background-color: rgba(241, 241, 241, 0.65); }
+    background-color: rgba(241, 241, 241, 0.7); }
   .header .navbar-header {
     display: table;
     width: 100%;
@@ -562,7 +560,7 @@ a, button {
 
 .offer {
   background-color: #f1f1f1;
-  padding: 60px 0; }
+  padding: 70px 0 90px; }
   .offer .offer-box {
     text-align: center;
     padding: 40px 50px;
@@ -639,27 +637,24 @@ a, button {
   background: rgba(255, 61, 0, 0.8); }
   .contact .contact-address {
     padding: 25px 15px;
-    background: rgba(255, 255, 255, 0.7);
-    color: #3a3c4a;
+    color: #fff;
     margin-bottom: 30px;
     text-align: center; }
     .contact .contact-address br {
       display: none; }
+    .contact .contact-address h3 {
+      color: #fff; }
     .contact .contact-address strong {
       display: block; }
       .contact .contact-address strong.phone {
         margin-bottom: 10px; }
       .contact .contact-address strong.mail a {
-        color: #3a3c4a;
+        color: #fff;
         text-decoration: none; }
-        .contact .contact-address strong.mail a:hover {
-          color: black; }
   .contact .contact-form-wrapper {
-    padding: 20px 15px;
-    background-color: rgba(58, 60, 74, 0.9); }
+    padding: 20px 15px; }
     .contact .contact-form-wrapper .form-control {
-      border-radius: 2px;
-      border: 1px solid rgba(58, 60, 74, 0.8); }
+      border-radius: 2px; }
       .contact .contact-form-wrapper .form-control::-webkit-input-placeholder {
         color: black; }
       .contact .contact-form-wrapper .form-control:-moz-placeholder {
@@ -736,8 +731,6 @@ a, button {
         margin-left: 150px;
         max-width: 450px; }
 
-  .header.opacity {
-    background-color: rgba(241, 241, 241, 0.7); }
   .header .navbar-header {
     width: auto; }
   .header .navbar-collapse .navbar-nav {
