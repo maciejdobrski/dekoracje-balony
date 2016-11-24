@@ -577,13 +577,13 @@ a, button {
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out; }
     .offer .offer-box.box-1 {
-      background-color: #fcb41e; }
+      background-color: #d32f2f; }
     .offer .offer-box.box-2 {
-      background-color: #53b1c6; }
+      background-color: #7B1FA2; }
     .offer .offer-box.box-3 {
-      background-color: #ff751a; }
+      background-color: #1976D2; }
     .offer .offer-box.box-4 {
-      background-color: #5d5167; }
+      background-color: #388E3C; }
     .offer .offer-box .offer-image {
       position: absolute;
       left: 50%;
