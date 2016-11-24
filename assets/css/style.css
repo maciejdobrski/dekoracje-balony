@@ -503,6 +503,8 @@ a, button {
       display: table-cell; }
       .header .navbar-header .logo:hover {
         color: #cc3100; }
+      .header .navbar-header .logo img {
+        display: none; }
     .header .navbar-header .navbar-toggle {
       background-color: #fff;
       margin-bottom: 23px;
@@ -609,7 +611,9 @@ a, button {
       -o-transition: top .3s ease-in-out;
       transition: top .3s ease-in-out; }
       .offer .offer-box .offer-slogan h3 {
-        color: #fff; }
+        color: #fff;
+        font-family: "Gloria Hallelujah", cursive;
+        text-transform: uppercase; }
     .offer .offer-box .offer-hide-text {
       overflow: hidden;
       -webkit-transition: top .3s ease-in-out;
@@ -738,6 +742,13 @@ a, button {
         margin-left: 150px;
         max-width: 450px; }
 
+  .header .navbar-header > .logo img {
+    display: inline-block;
+    height: 50px;
+    margin-top: -10px; }
+  .header .navbar-header > .logo span {
+    display: inline-block;
+    line-height: 2; }
   .header .navbar-header {
     width: auto; }
   .header .navbar-collapse .navbar-nav {

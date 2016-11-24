@@ -213,6 +213,10 @@ a, button {
       &:hover{
         color: darken($orange, 10%);
       }
+
+      img{
+        display: none;
+      }
     }
 
     .navbar-toggle{
@@ -368,6 +372,8 @@ a, button {
 
       h3{
         color: $secundary-color;
+        font-family: $font-gloria;
+        text-transform: uppercase;
       }
     }
 
@@ -570,6 +576,19 @@ a, button {
   }
 
   .header{
+
+    .navbar-header > .logo{
+      img{
+        display: inline-block;
+        height: 50px;
+        margin-top: -10px;
+      }
+
+      span{
+        display: inline-block;
+        line-height: 2;
+      }
+    }
     .navbar-header{
       width: auto;
     }
