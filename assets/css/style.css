@@ -665,6 +665,16 @@ a, button {
         text-decoration: none; }
   .contact .contact-form-wrapper {
     padding: 20px 15px; }
+    .contact .contact-form-wrapper .has-error .form-control {
+      border-color: #d50000; }
+      .contact .contact-form-wrapper .has-error .form-control::-webkit-input-placeholder {
+        color: #d50000; }
+      .contact .contact-form-wrapper .has-error .form-control:-moz-placeholder {
+        color: #d50000; }
+      .contact .contact-form-wrapper .has-error .form-control::-moz-placeholder {
+        color: #d50000; }
+      .contact .contact-form-wrapper .has-error .form-control:-ms-input-placeholder {
+        color: #d50000; }
     .contact .contact-form-wrapper .form-control {
       border-radius: 0; }
       .contact .contact-form-wrapper .form-control::-webkit-input-placeholder {
@@ -691,6 +701,14 @@ a, button {
           right: -3px; }
         .contact .contact-form-wrapper .btn-contact:hover i {
           animation: bounce 1s; }
+    .contact .contact-form-wrapper div {
+      margin-top: 5px; }
+      .contact .contact-form-wrapper div > p.success {
+        color: #2E7D32;
+        margin-top: 10px; }
+      .contact .contact-form-wrapper div > p.error {
+        color: #d50000;
+        margin-bottom: 2px; }
 
 .google {
   position: relative;
