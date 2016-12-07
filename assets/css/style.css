@@ -4,6 +4,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -542,9 +543,11 @@ a, button {
         .header .navbar-collapse .navbar-nav li .scrollto {
           color: #3a3c4a;
           text-decoration: none; }
-          .header .navbar-collapse .navbar-nav li .scrollto:hover, .header .navbar-collapse .navbar-nav li .scrollto:focus {
+          .header .navbar-collapse .navbar-nav li .scrollto:hover {
             background-color: #FF3D00;
             color: #fff; }
+          .header .navbar-collapse .navbar-nav li .scrollto:focus {
+            background-color: transparent; }
         .header .navbar-collapse .navbar-nav li.active .scrollto {
           color: #fff;
           background-color: #FF3D00; }
@@ -708,8 +711,13 @@ a, button {
   .footer p {
     color: #fff; }
     .footer p a {
-      color: #eb5d1e;
-      text-decoration: none; }
+      color: #fff;
+      text-decoration: none;
+      font-weight: 900;
+      font-family: 'Dosis', sans-serif;
+      font-size: 24px; }
+      .footer p a span {
+        color: #eb5d1e; }
 
 @keyframes bounce {
   0% {

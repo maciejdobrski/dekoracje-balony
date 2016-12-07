@@ -1,4 +1,5 @@
 @import "normalize";
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
 
 /*  ===== Variables ===== */
 $page-width: 100%;
@@ -275,9 +276,12 @@ a, button {
           color: $primary-color;
           text-decoration: none;
 
-          &:hover, &:focus{
+          &:hover{
             background-color: $orange;
             color: $secundary-color;
+          }
+          &:focus{
+            background-color: transparent;
           }
         }
 
@@ -520,8 +524,15 @@ a, button {
     color: $secundary-color;
 
     a{
-      color: #eb5d1e;
+      color: $secundary-color;
       text-decoration: none;
+      font-weight: 900;
+      font-family: 'Dosis', sans-serif;
+      font-size: 24px;
+
+      span{
+        color: #eb5d1e;
+      }
     }
   }
 }
